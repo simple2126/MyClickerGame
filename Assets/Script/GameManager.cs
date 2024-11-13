@@ -1,29 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    private GameManager Instance;
-    public GameObject Player { get; private set; }
+    public static GameManager Instance;
+
+    public PlayerController PlayerController { get; private set; }
 
     private void Awake()
     {
-        if (Instance == null)
+        if (Instance != null)
         {
-            Instance = this;
-            DontDestroyOnLoad(Instance);
+            Destroy(Instance);
         }
-        else
-        {
-            if (Instance == this)
-            {
-                Destroy(gameObject);
-            }
+        Instance = this;
 
-        }
-
-        Player = GameObject.FindGameObjectWithTag("Player");
+        PlayerController = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
     }
 }

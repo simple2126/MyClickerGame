@@ -1,0 +1,1231 @@
+fileFormatVersion: 2
+guid: 93bb3d7d2fbf00040a28ad11776cc8bf
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: MiniCrossBowMan_Frame_0
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 217
+      width: 13
+      height: 13
+    spriteID: 7f56c65aafe52a34b9f6b774d38cd6e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 217}
+  - name: MiniCrossBowMan_Frame_1
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 25
+      width: 13
+      height: 12
+    spriteID: 82408bd6a57b10942a14740b47b6fb40
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 25}
+  - name: MiniCrossBowMan_Frame_2
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 45
+      width: 13
+      height: 12
+    spriteID: 62d2c642f7aef3640ae2f81a3185c751
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 45}
+  - name: MiniCrossBowMan_Frame_3
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 238
+      width: 13
+      height: 13
+    spriteID: 248608d2029d5284f90711dcad651185
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 238}
+  - name: MiniCrossBowMan_Frame_4
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 65
+      width: 13
+      height: 12
+    spriteID: 6394b07a23c9a274caa660b6bb9d9344
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 65}
+  - name: MiniCrossBowMan_Frame_5
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 4
+      width: 13
+      height: 13
+    spriteID: f746b7b653b9d31489e8af4c1d390aeb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 4}
+  - name: MiniCrossBowMan_Frame_6
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 46
+      width: 13
+      height: 14
+    spriteID: 10a418c23a143d6429429d4fbb7b960e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 46}
+  - name: MiniCrossBowMan_Frame_7
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 85
+      width: 13
+      height: 12
+    spriteID: 67d1975df34dcfc44a4a790697f2a422
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 85}
+  - name: MiniCrossBowMan_Frame_8
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 25
+      width: 13
+      height: 13
+    spriteID: 3d13244ad18a05c4895cf7600fad5184
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 25}
+  - name: MiniCrossBowMan_Frame_9
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 68
+      width: 13
+      height: 14
+    spriteID: 69c1de4609dfb23409bad9413351c398
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 68}
+  - name: MiniCrossBowMan_Frame_10
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 90
+      width: 13
+      height: 14
+    spriteID: 8a14178f7d2ed8046b928c7041f7a333
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 90}
+  - name: MiniCrossBowMan_Frame_11
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 112
+      width: 13
+      height: 14
+    spriteID: 1eb392b1432a33c48ba0dcb95f702779
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 112}
+  - name: MiniCrossBowMan_Frame_12
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.09090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 189
+      width: 13
+      height: 11
+    spriteID: b164ac4d3e7ed4f49aead13011f66497
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 189}
+  - name: MiniCrossBowMan_Frame_13
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 46
+      width: 13
+      height: 13
+    spriteID: 285665cbc8649184b9fa8b2e7b2fa8a7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 46}
+  - name: MiniCrossBowMan_Frame_14
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 67
+      width: 13
+      height: 13
+    spriteID: b8dbe303a645bb14686c8fe240ba8aed
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 67}
+  - name: MiniCrossBowMan_Frame_15
+    originalName: 
+    pivot: {x: 0.35714287, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 134
+      width: 14
+      height: 13
+    spriteID: 540289d3c08b703428c2a6a330e237b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 134}
+  - name: MiniCrossBowMan_Frame_16
+    originalName: 
+    pivot: {x: 0.2857143, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 155
+      width: 14
+      height: 13
+    spriteID: 5f68ecf8481a4b448ac87339bef41841
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 155}
+  - name: MiniCrossBowMan_Frame_17
+    originalName: 
+    pivot: {x: 0.36363637, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 208
+      width: 11
+      height: 13
+    spriteID: 4e15897a6a9409640a0c387c41fcad6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 208}
+  - name: MiniCrossBowMan_Frame_18
+    originalName: 
+    pivot: {x: 0.33333334, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 105
+      width: 12
+      height: 13
+    spriteID: fcb4557e7e6ee7b4cabf2cd8c7ced443
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 105}
+  - name: MiniCrossBowMan_Frame_19
+    originalName: 
+    pivot: {x: 0.4166667, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 126
+      width: 12
+      height: 13
+    spriteID: 3adbc3e40d495f444940fa0f2b574337
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 126}
+  - name: MiniCrossBowMan_Frame_20
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 88
+      width: 13
+      height: 13
+    spriteID: 4ef9652536915144685f76b80657f9d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 88}
+  - name: MiniCrossBowMan_Frame_21
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 109
+      width: 13
+      height: 13
+    spriteID: 7522f3b9c6dd53d418086f0fc0304bf8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 109}
+  - name: MiniCrossBowMan_Frame_22
+    originalName: 
+    pivot: {x: 0.53333336, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 15
+      height: 13
+    spriteID: f58bff2bb980860459c866606cf93236
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: MiniCrossBowMan_Frame_23
+    originalName: 
+    pivot: {x: 0.4166667, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 147
+      width: 12
+      height: 13
+    spriteID: 1655d16fab53fd946928ce58791921f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 147}
+  - name: MiniCrossBowMan_Frame_24
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 130
+      width: 13
+      height: 13
+    spriteID: cbf77c586b8111f4faac452ecae8afe3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 130}
+  - name: MiniCrossBowMan_Frame_25
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 151
+      width: 13
+      height: 13
+    spriteID: 93f9a6f011475bf4485ed6d5fae8fcb8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 151}
+  - name: MiniCrossBowMan_Frame_26
+    originalName: 
+    pivot: {x: 0.53846157, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 172
+      width: 13
+      height: 13
+    spriteID: 910d9b361a587a54ba58cddd344dae53
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 172}
+  - name: MiniCrossBowMan_Frame_27
+    originalName: 
+    pivot: {x: 0.6363636, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 229
+      width: 11
+      height: 13
+    spriteID: 5cf9912a84488864c8c8ca979e359728
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 229}
+  - name: MiniCrossBowMan_Frame_28
+    originalName: 
+    pivot: {x: 0.26666668, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 25
+      width: 15
+      height: 13
+    spriteID: 1f9c9547f8d002947902bbe5433e8c3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 25}
+  - name: MiniCrossBowMan_Frame_29
+    originalName: 
+    pivot: {x: 0.35714287, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 176
+      width: 14
+      height: 13
+    spriteID: 2e0160764a1f0014b8ebf7303533dc9d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 176}
+  - name: MiniCrossBowMan_Frame_30
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 193
+      width: 13
+      height: 13
+    spriteID: 11f7a6bf87a3ec14fa1c13abbe9906d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 193}
+  - name: MiniCrossBowMan_Frame_31
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 214
+      width: 13
+      height: 13
+    spriteID: 11d82e34ae749584098b685e5b05495f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 214}
+  - name: MiniCrossBowMan_Frame_32
+    originalName: 
+    pivot: {x: 0.5833334, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 168
+      width: 12
+      height: 13
+    spriteID: 6d56867db01f911449dfc72be9578899
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 168}
+  - name: MiniCrossBowMan_Frame_33
+    originalName: 
+    pivot: {x: 0.4615385, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 27
+      y: 235
+      width: 13
+      height: 13
+    spriteID: 66b77ea9b28e61140bf5039face40cc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 27, y: 235}
+  - name: MiniCrossBowMan_Frame_34
+    originalName: 
+    pivot: {x: 0.3846154, y: -0.07692308}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 4
+      width: 13
+      height: 13
+    spriteID: 3a7c8f8ac1d39fc44b000e1b247e8b22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 48, y: 4}
+  - name: MiniCrossBowMan_Frame_35
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.083333336}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 197
+      width: 15
+      height: 12
+    spriteID: 10c31b05fc86d584ba8b0ad48f8d6bbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 197}
+  - name: MiniCrossBowMan_Frame_36
+    originalName: 
+    pivot: {x: 0.42857146, y: -0.1}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 4
+      width: 14
+      height: 10
+    spriteID: 32f338138132c914c86dbf7767eda22f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 4}
+  - name: MiniCrossBowMan_Frame_37
+    originalName: 
+    pivot: {x: 0.5, y: -0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 91
+      y: 4
+      width: 16
+      height: 6
+    spriteID: ac50d5065923c2e4aa1d47680ac170ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 91, y: 4}
+  - name: MiniCrossBowMan_Frame_38
+    originalName: 
+    pivot: {x: 0.5294118, y: -0.2}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 91
+      y: 18
+      width: 17
+      height: 5
+    spriteID: f024d0672fadacd41b34e4bc0b589e7a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 91, y: 18}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1776594687
+    name: MiniCrossBowMan
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: MiniCrossBowMan_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 7f56c65aafe52a34b9f6b774d38cd6e9
+    - name: MiniCrossBowMan_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 12
+      spriteId: 82408bd6a57b10942a14740b47b6fb40
+    - name: MiniCrossBowMan_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 12
+      spriteId: 62d2c642f7aef3640ae2f81a3185c751
+    - name: MiniCrossBowMan_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 248608d2029d5284f90711dcad651185
+    - name: MiniCrossBowMan_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 12
+      spriteId: 6394b07a23c9a274caa660b6bb9d9344
+    - name: MiniCrossBowMan_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 13
+      spriteId: f746b7b653b9d31489e8af4c1d390aeb
+    - name: MiniCrossBowMan_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 14
+      spriteId: 10a418c23a143d6429429d4fbb7b960e
+    - name: MiniCrossBowMan_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 12
+      spriteId: 67d1975df34dcfc44a4a790697f2a422
+    - name: MiniCrossBowMan_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 3d13244ad18a05c4895cf7600fad5184
+    - name: MiniCrossBowMan_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 14
+      spriteId: 69c1de4609dfb23409bad9413351c398
+    - name: MiniCrossBowMan_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 14
+      spriteId: 8a14178f7d2ed8046b928c7041f7a333
+    - name: MiniCrossBowMan_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 14
+      spriteId: 1eb392b1432a33c48ba0dcb95f702779
+    - name: MiniCrossBowMan_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 11
+      spriteId: b164ac4d3e7ed4f49aead13011f66497
+    - name: MiniCrossBowMan_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 285665cbc8649184b9fa8b2e7b2fa8a7
+    - name: MiniCrossBowMan_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 13
+      spriteId: b8dbe303a645bb14686c8fe240ba8aed
+    - name: MiniCrossBowMan_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 11
+        y: 1
+        width: 14
+        height: 13
+      spriteId: 540289d3c08b703428c2a6a330e237b2
+    - name: MiniCrossBowMan_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 12
+        y: 1
+        width: 14
+        height: 13
+      spriteId: 5f68ecf8481a4b448ac87339bef41841
+    - name: MiniCrossBowMan_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 12
+        y: 1
+        width: 11
+        height: 13
+      spriteId: 4e15897a6a9409640a0c387c41fcad6d
+    - name: MiniCrossBowMan_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 12
+        y: 1
+        width: 12
+        height: 13
+      spriteId: fcb4557e7e6ee7b4cabf2cd8c7ced443
+    - name: MiniCrossBowMan_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 11
+        y: 1
+        width: 12
+        height: 13
+      spriteId: 3adbc3e40d495f444940fa0f2b574337
+    - name: MiniCrossBowMan_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 4ef9652536915144685f76b80657f9d9
+    - name: MiniCrossBowMan_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 7522f3b9c6dd53d418086f0fc0304bf8
+    - name: MiniCrossBowMan_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 8
+        y: 1
+        width: 15
+        height: 13
+      spriteId: f58bff2bb980860459c866606cf93236
+    - name: MiniCrossBowMan_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 11
+        y: 1
+        width: 12
+        height: 13
+      spriteId: 1655d16fab53fd946928ce58791921f7
+    - name: MiniCrossBowMan_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 13
+      spriteId: cbf77c586b8111f4faac452ecae8afe3
+    - name: MiniCrossBowMan_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 93f9a6f011475bf4485ed6d5fae8fcb8
+    - name: MiniCrossBowMan_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 9
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 910d9b361a587a54ba58cddd344dae53
+    - name: MiniCrossBowMan_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 9
+        y: 1
+        width: 11
+        height: 13
+      spriteId: 5cf9912a84488864c8c8ca979e359728
+    - name: MiniCrossBowMan_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 12
+        y: 1
+        width: 15
+        height: 13
+      spriteId: 1f9c9547f8d002947902bbe5433e8c3c
+    - name: MiniCrossBowMan_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 11
+        y: 1
+        width: 14
+        height: 13
+      spriteId: 2e0160764a1f0014b8ebf7303533dc9d
+    - name: MiniCrossBowMan_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 11f7a6bf87a3ec14fa1c13abbe9906d0
+    - name: MiniCrossBowMan_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 11d82e34ae749584098b685e5b05495f
+    - name: MiniCrossBowMan_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 9
+        y: 1
+        width: 12
+        height: 13
+      spriteId: 6d56867db01f911449dfc72be9578899
+    - name: MiniCrossBowMan_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 10
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 66b77ea9b28e61140bf5039face40cc8
+    - name: MiniCrossBowMan_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 11
+        y: 1
+        width: 13
+        height: 13
+      spriteId: 3a7c8f8ac1d39fc44b000e1b247e8b22
+    - name: MiniCrossBowMan_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 9
+        y: 1
+        width: 15
+        height: 12
+      spriteId: 10c31b05fc86d584ba8b0ad48f8d6bbd
+    - name: MiniCrossBowMan_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 10
+        y: 1
+        width: 14
+        height: 10
+      spriteId: 32f338138132c914c86dbf7767eda22f
+    - name: MiniCrossBowMan_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 8
+        y: 1
+        width: 16
+        height: 6
+      spriteId: ac50d5065923c2e4aa1d47680ac170ff
+    - name: MiniCrossBowMan_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 7
+        y: 1
+        width: 17
+        height: 5
+      spriteId: f024d0672fadacd41b34e4bc0b589e7a
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
