@@ -6,16 +6,16 @@ using static UnityEditor.Timeline.TimelinePlaybackControls;
 
 public class PlayerController : MonoBehaviour
 {
-    private float autoClickTime = 1f;
-    
-    public float power;
     public EnemyGenerator enemyGenerator;
     public UIMAnager uiManager;
     public Enemy enemy;
-    public int clickGold = 1;
-    public bool isAutoClick = false;
 
-    public void Awake()
+    public float autoClickTime;
+    public bool isAutoClick = false;
+    public float power;
+    public int clickGold = 1;
+
+    public void Start()
     {
         enemy = enemyGenerator.child.GetComponent<Enemy>();
     }
@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         
-        if (Input.GetMouseButtonDown(0) && isInBox(mouse))
+        if ((Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Tab)) && isInBox(mouse))
         {
             Debug.Log("OnAttack");
             enemy.ChangeHealth(power);
@@ -46,6 +46,11 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(autoClickTime);
         enemy.ChangeHealth(power);
+        StartCoroutine(AutoClickCoroutine());
+    }
+
+    public void AutoClickStartCoroutine()
+    {
         StartCoroutine(AutoClickCoroutine());
     }
 }

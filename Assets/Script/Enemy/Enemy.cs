@@ -63,6 +63,8 @@ public class Enemy : MonoBehaviour
     private void Die()
     {
         GameManager.Instance.PlayerController.enemyGenerator.Generate();
-        GameManager.Instance.PlayerController.uiManager.UpdateUI(Random.Range(enemySO.minGold, enemySO.maxGold));
+        UIMAnager uiManager = GameManager.Instance.PlayerController.uiManager;
+        uiManager.UpdateGold(Random.Range(enemySO.minGold, enemySO.maxGold));
+        uiManager.UpdateStage();
     }
 }
