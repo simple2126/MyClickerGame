@@ -7,8 +7,8 @@ public class UIMAnager : MonoBehaviour
     [Header("Upgrade UI")]
     public TextMeshProUGUI stageTxt;
     private int stage = 0;
-    public TextMeshProUGUI goldtxt;
-    private int gold = 0;
+    public TextMeshProUGUI moneyTxt;
+    private int money = 0;
 
     [Header("UpgradeButton")]
     public GameObject clickUpgrade;
@@ -26,7 +26,7 @@ public class UIMAnager : MonoBehaviour
 
     private void Awake()
     {
-        UpdateUI(gold);
+        UpdateUI(money);
     }
 
     public void UpdateStage()
@@ -37,8 +37,8 @@ public class UIMAnager : MonoBehaviour
 
     public void UpdateGold(int reward)
     {
-        gold += reward;
-        goldtxt.text = $"{gold} G";
+        money += reward;
+        moneyTxt.text = $"{money} G";
     }
 
     private void UpdateUI(int reward)
@@ -52,7 +52,7 @@ public class UIMAnager : MonoBehaviour
 
     public void clickUpgradeButton()
     {
-        if (gold >= clickUpgradeCost)
+        if (money >= clickUpgradeCost)
         {
             UpdateGold(-clickUpgradeCost);
             clickUpgradeCost += 10;
@@ -64,7 +64,7 @@ public class UIMAnager : MonoBehaviour
 
     public void autoClickUnlockButton()
     {
-        if(gold >= autoClickUnlockCost)
+        if(money >= autoClickUnlockCost)
         {
             UpdateGold(-autoClickUnlockCost);
             GameManager.Instance.PlayerController.isAutoClick = true;
@@ -75,7 +75,7 @@ public class UIMAnager : MonoBehaviour
 
     public void autoClickUpgradeButton()
     {
-        if (gold >= autoClickUpgradeCost && GameManager.Instance.PlayerController.isAutoClick)
+        if (money >= autoClickUpgradeCost && GameManager.Instance.PlayerController.isAutoClick)
         {
             UpdateGold(-autoClickUpgradeCost);
             clickUpgradeCost += 20;

@@ -15,18 +15,23 @@ public class PlayerController : MonoBehaviour
     public float power;
     public int clickGold = 1;
 
+    private Coroutine coroutine;
+
     public void Start()
     {
         enemy = enemyGenerator.child.GetComponent<Enemy>();
     }
 
-    public void OnAttack()
+    public void OnAttack(InputAction.CallbackContext context)
     {
-        Vector2 mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        
-        if ((Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Tab)) && isInBox(mouse))
+        if (context.phase == InputActionPhase.Started)
         {
-            Debug.Log("OnAttack");
+            if (context.control == Mouse.current.leftButton)
+            {
+                Vector2 mouse = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+                if (!isInBox(mouse)) return;
+            }
+
             enemy.ChangeHealth(power);
             uiManager.UpdateGold(clickGold);
         }
@@ -46,11 +51,12 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(autoClickTime);
         enemy.ChangeHealth(power);
-        StartCoroutine(AutoClickCoroutine());
+        if (coroutine != null) StopCoroutine(coroutine);
+        coroutine = StartCoroutine(AutoClickCoroutine());
     }
 
     public void AutoClickStartCoroutine()
     {
-        StartCoroutine(AutoClickCoroutine());
+        coroutine = StartCoroutine(AutoClickCoroutine());
     }
 }
