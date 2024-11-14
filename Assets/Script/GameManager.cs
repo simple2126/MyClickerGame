@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
         Instance = this;
 
         PlayerController = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
+        clickParticle = Instantiate(clickParticle);
+        clickParticle.Stop();
     }
 
     public void PlayParticle(Vector2 position)
