@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHP: 100
   sprite: {fileID: 1417291977, guid: 85fe43390aed4fa4b954d6bcd8bbece0, type: 3}
-  minGold: 10
-  maxGold: 20
+  minGold: 100
+  maxGold: 200
