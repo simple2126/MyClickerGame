@@ -26,12 +26,14 @@ public class PlayerController : MonoBehaviour
     {
         if (context.phase == InputActionPhase.Started)
         {
+            ParticleSystem particle = GameManager.Instance.clickParticle;
+
             if (context.control == Mouse.current.leftButton)
             {
                 Vector2 mouse = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
                 if (!isInBox(mouse)) return;
+                GameManager.Instance.PlayParticle(mouse);
             }
-
             enemy.ChangeHealth(power);
             uiManager.UpdateGold(clickGold);
         }
@@ -57,6 +59,7 @@ public class PlayerController : MonoBehaviour
 
     public void AutoClickStartCoroutine()
     {
+        isAutoClick = true;
         coroutine = StartCoroutine(AutoClickCoroutine());
     }
 }

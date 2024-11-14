@@ -59,6 +59,7 @@ public class UIMAnager : MonoBehaviour
             clickUpgradeTxt.text = $"{clickUpgradeCost} G";
             GameManager.Instance.PlayerController.power *= 1.3f;
             GameManager.Instance.PlayerController.clickGold += 1;
+            GameManager.Instance.PlayParticle(Input.mousePosition);
         }
     }
 
@@ -67,9 +68,9 @@ public class UIMAnager : MonoBehaviour
         if(money >= autoClickUnlockCost)
         {
             UpdateGold(-autoClickUnlockCost);
-            GameManager.Instance.PlayerController.isAutoClick = true;
             GameManager.Instance.PlayerController.AutoClickStartCoroutine();
             lockImage.SetActive(true);
+            GameManager.Instance.PlayParticle(Input.mousePosition);
         }
     }
 
@@ -82,6 +83,7 @@ public class UIMAnager : MonoBehaviour
             autoClickUpgradeTxt.text = $"{autoClickUpgradeCost} G";
             float time = GameManager.Instance.PlayerController.autoClickTime;
             GameManager.Instance.PlayerController.autoClickTime = Mathf.Max(0f, time - 0.1f);
+            GameManager.Instance.PlayParticle(Input.mousePosition);
         }
     }
 }

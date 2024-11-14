@@ -115,6 +115,7 @@ GameObject:
   - component: {fileID: 7469202738913763397}
   - component: {fileID: 7233244248461967155}
   - component: {fileID: 3018837574669791522}
+  - component: {fileID: 2123901595050959788}
   m_Layer: 0
   m_Name: Goblin
   m_TagString: Untagged
@@ -227,6 +228,51 @@ MonoBehaviour:
   animator: {fileID: 7233244248461967155}
   hpImage: {fileID: 884942576522500479}
   animationChangeTime: 0.2
+--- !u!61 &2123901595050959788
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5766100489198194736}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0009626597, y: -0.08020598}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.5, y: 1.5}
+    newSize: {x: 1.5, y: 1.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.3563181, y: 0.4148597}
+  m_EdgeRadius: 0
 --- !u!1 &6640780825237177562
 GameObject:
   m_ObjectHideFlags: 0
